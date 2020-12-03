@@ -15,6 +15,9 @@ client.on('message', msg => {
   if (msg.content === 'ping') {
     msg.reply('Pong!');
   }
+   if (msg.content === 'asees kuta') {
+    msg.reply('True bro');
+  }
 });
 
 client.login(process.env.BOT_TOKEN)
